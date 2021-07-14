@@ -7,11 +7,9 @@ import { BsFillGrid3X3GapFill } from "react-icons/bs";
 import { IoBusinessSharp } from "react-icons/io5";
 import { IoShirtSharp } from "react-icons/io5";
 import { MdDvr } from "react-icons/md";
-import { useDispatch, useSelector } from "react-redux";
-import { getProduct } from "../../Actions/productAction";
+import { useSelector } from "react-redux";
 
 const Product = () => {
-  const dispatch = useDispatch();
   const savedProduct = useSelector((state) => state.product);
   const [product, setProduct] = useState([]);
 

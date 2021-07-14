@@ -23,7 +23,7 @@ const Create_Ad = () => {
       description,
       productImage,
     };
-    dispatch(createProduct());
+    dispatch(createProduct(data));
   };
   return (
     <>

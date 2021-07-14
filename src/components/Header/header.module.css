@@ -1,0 +1,9 @@
+.light {
+    color: #ffffff !important;
+}
+@media screen and (max-width: 768px){
+    .nav-mobile-view {
+        color:red !important;
+        border: 1px solid red !important
+    }
+}
